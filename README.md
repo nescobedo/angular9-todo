@@ -19,8 +19,7 @@ https://stackblitz.com/angular/vnyxovpppxr?file=src%2Fapp%2Fhttp-error-handler.s
 https://angular.io/guide/http - Angular Docs
 https://github.com/angular/in-memory-web-api - In Memory Web Api documentation
 
-
-
+Thanks for stopping by! 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
