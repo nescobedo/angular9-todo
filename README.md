@@ -1,4 +1,26 @@
-# Ang9TodoInmemoryapi
+# Angular 9 Todo List using In-Memory-web-api
+
+This is my Angular 9 CRUD application.  It is a basic Todo app that uses the in-memory-web- to replicate calls.  
+
+This app also includes Bootstrap 4(scss) and prettier. It uses the messaging service from Angular's well know Tour of Heroes tutorial to show api requests.  
+
+I wanted to learn more about the in-memory-web-api service so here is the process I used to create this application:
+
+https://www.techiediaries.com/angular-inmemory-web-api/ - This one got me started but did not give a complete view of how data is updated to the app. 
+
+https://www.concretepage.com/angular/angular-crud - This worked great, I based initial requests from this repo.
+
+http://www.angulartodo.com/code.html  - I used this example to help simplify my form. 
+
+https://www.youtube.com/watch?v=jNCzuSryJHE  - I used this as a basis for styling.  
+
+https://stackblitz.com/angular/vnyxovpppxr?file=src%2Fapp%2Fhttp-error-handler.service.ts - google's official implementation but I ended up using their error handling and messaging features.
+
+https://angular.io/guide/http - Angular Docs
+https://github.com/angular/in-memory-web-api - In Memory Web Api documentation
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
