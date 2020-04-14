@@ -1,8 +1,8 @@
 # Angular 9 Todo List using In-Memory-web-api
 
-This is my Angular 9 CRUD application.  It is a basic Todo app that uses the in-memory-web- to replicate calls.  
+This is my Angular 9 CRUD application.  It is a basic Todo app that uses the in-memory-web-api to replicate calls.  
 
-This app also includes Bootstrap 4(scss) and prettier. It uses the messaging service from Angular's well know Tour of Heroes tutorial to show api requests.  
+This app also includes Bootstrap 4(scss) and prettier. It uses the messaging service from Angular's Tour of Heroes tutorial to show api requests.  
 
 I wanted to learn more about the in-memory-web-api service so here is the process I used to create this application:
 
