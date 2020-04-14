@@ -1,0 +1,15 @@
+@import '../../scss/variables.scss';
+
+.message-section {
+  ol.messages {
+    margin: 10px 0;
+    padding: 0;
+    list-style-position: inside;
+    .message {
+      background: rgba(#fff,.5);
+      margin: 0 0 2px 0;
+      padding: 5px 10px;
+      font-size: .8rem;
+    }
+  }
+}

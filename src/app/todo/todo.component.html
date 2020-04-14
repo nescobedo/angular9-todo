@@ -1,0 +1,34 @@
+<div class="header">
+  <h4>Things To Do</h4>
+  <form (submit)="addTodo($event)">
+    <div class="input-group">
+      <input [(ngModel)]="newTodo" (keyup.enter)="newTodo=''" class="form-control" name="newTodo"
+        placeholder="Add a task...">
+      <button class="btn-add" type="submit" [disabled]="newTodo===''"><i class="fa fa-plus-circle fa-2x"></i></button>
+    </div>
+  </form>
+</div>
+
+<ul class="list-group" [@listAnimation]="todos.length">
+  <li class="list-group-item" *ngFor="let todo of todos">
+    <span class="item" [class.text-success]="todo.completed"
+      (click)="todo.completed = !todo.completed; updateTodo(todo);">
+      <i class="fa fa-lg" [ngClass]="todo.completed?'fa-check-circle-o':'fa-circle-thin'"></i> <span
+        class="desc">{{ todo.description }}</span>
+    </span>
+    <span class="trash" (click)="deleteTodo(todo.id)">
+      <i class="fa fa-trash-o fa-lg"></i>
+    </span>
+  </li>
+  <div *ngIf="todos.length == 0" class="empty">Time to get to work.<br> Add some tasks!</div>
+</ul>
+
+<div class="messages">
+  <input type="checkbox" [(ngModel)]="viewMessages" /> View Requests
+  <header *ngIf="viewMessages" class="text-right" @fadeInOut>
+    <button class="btn-clear clear" (click)="messageService.clear()">Clear Requests</button>
+  </header>
+  <div class="message-wrap">
+    <app-messages *ngIf="viewMessages"></app-messages>
+  </div>
+</div>
