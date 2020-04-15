@@ -116,7 +116,9 @@
   font-family: 'Raleway', sans-serif;
   position: relative;
   @include media-breakpoint-up(md) {
-    height: 340px;
+    &.viewMessages {
+      height: 340px;
+    }
   }
   input {
     margin-right: 5px;
@@ -143,9 +145,11 @@
     width: 100%;
     position: relative;
     @include media-breakpoint-up(md) {
-      max-height: 300px;
-      overflow: hidden;
-      overflow-y: auto;
+      .viewMessages & {
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: auto;
+      }
     }
   }
 }

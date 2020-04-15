@@ -23,7 +23,7 @@
   <div *ngIf="todos.length == 0" class="empty">Time to get to work.<br> Add some tasks!</div>
 </ul>
 
-<div class="messages">
+<div class="messages" [class.viewMessages]="viewMessages">
   <input type="checkbox" [(ngModel)]="viewMessages" /> View Requests
   <header *ngIf="viewMessages" class="text-right" @fadeInOut>
     <button class="btn-clear clear" (click)="messageService.clear()">Clear Requests</button>
