@@ -17,18 +17,22 @@ export class TodoComponent implements OnInit {
 	newTodo: string;
 	todos: Todo[] = [];
 	viewMessages: boolean;
+	loading: boolean;
 
 	constructor(private todoService: TodoService, public messageService: MessageService) {}
 
 	ngOnInit(): void {
 		this.newTodo = '';
 		this.viewMessages = false;
+		this.loading = false;
 		this.getAllTodos();
 	}
 
 	getAllTodos() {
+		this.loading = true;
 		this.todoService.getTodos().subscribe((data: Todo[]) => {
 			this.todos = data;
+			this.loading = false;
 		});
 	}
 
