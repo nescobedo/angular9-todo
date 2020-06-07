@@ -1,25 +1,40 @@
-# Angular 9 Todo List using In-Memory-web-api
+<p align="center">
+  <img style="width: 50px;" src="http://gh-images.futurebutterflies.net/2020_fb.svg">
+</p>
 
+<h1 align="center">Angular 9<br>Todo List using In-Memory-web-api</h1>
 This is my Angular 9 CRUD application.  It is a basic Todo app that uses the in-memory-web-api to replicate calls.  
+  
+This app also includes Bootstrap 4(scss) and Prettier. It uses the messaging service from Angular's Tour of Heroes tutorial to show api requests.  
 
-This app also includes Bootstrap 4(scss) and prettier. It uses the messaging service from Angular's Tour of Heroes tutorial to show api requests.  
+<p align="center">
+  <img src="./screenshots/start.png">
+</p>
 
-I wanted to learn more about the in-memory-web-api service so here is the process I used to create this application:
+<p align="center">
+  <img src="./screenshots/edit.png">
+</p>
 
-https://www.techiediaries.com/angular-inmemory-web-api/ - This one got me started but did not give a complete view of how data is updated to the app. 
+![divider](http://gh-images.futurebutterflies.net/divider.png)
 
-https://www.concretepage.com/angular/angular-crud - This worked great, I based initial requests from this repo.
+## ❯ Resources
 
-http://www.angulartodo.com/code.html  - I used this example to help simplify my form. 
+* https://www.techiediaries.com/angular-inmemory-web-api/ - This one got me started but did not give a complete view of how data is updated to the app. 
 
-https://www.youtube.com/watch?v=jNCzuSryJHE  - I used this as a basis for styling.  
+* https://www.concretepage.com/angular/angular-crud - This worked great, I based initial requests from this repo.
 
-https://stackblitz.com/angular/vnyxovpppxr?file=src%2Fapp%2Fhttp-error-handler.service.ts - google's official implementation but I ended up using their error handling and messaging features.
+* http://www.angulartodo.com/code.html  - I used this example to help simplify my form. 
 
-https://angular.io/guide/http - Angular Docs
+* https://www.youtube.com/watch?v=jNCzuSryJHE  - I used this as a basis for styling.  
+
+* https://stackblitz.com/angular/vnyxovpppxr?file=src%2Fapp%2Fhttp-error-handler.service.ts - google's official implementation but I ended up using their error handling and messaging features.
+
+* https://angular.io/guide/http - Angular Docs
 https://github.com/angular/in-memory-web-api - In Memory Web Api documentation
 
 Thanks for stopping by! 
+
+![divider](http://gh-images.futurebutterflies.net/divider.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
