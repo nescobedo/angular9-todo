@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="width: 50px;" src="http://gh-images.futurebutterflies.net/2020_fb.svg">
+  <img src="http://gh-images.futurebutterflies.net/2020_fb.png">
 </p>
 
 <h1 align="center">Angular 9<br>Todo List using In-Memory-web-api</h1>
