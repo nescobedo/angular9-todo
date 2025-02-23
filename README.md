@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://gh-images.futurebutterflies.net/2020_fb.png">
+  <img src="http://gh-images.futurebutterflies.com/2020_fb.png">
 </p>
 
 <h1 align="center">Angular 9<br>Todo List using In-Memory-web-api</h1>
@@ -15,7 +15,7 @@ This app also includes Bootstrap 4(scss) and Prettier. It uses the messaging ser
   <img src="./screenshots/edit.png">
 </p>
 
-![divider](http://gh-images.futurebutterflies.net/divider.png)
+![divider](http://gh-images.futurebutterflies.com/divider.png)
 
 ## ❯ Resources
 
@@ -34,7 +34,7 @@ https://github.com/angular/in-memory-web-api - In Memory Web Api documentation
 
 Thanks for stopping by! 
 
-![divider](http://gh-images.futurebutterflies.net/divider.png)
+![divider](http://gh-images.futurebutterflies.com/divider.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
